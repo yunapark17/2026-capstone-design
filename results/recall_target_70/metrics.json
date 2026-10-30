@@ -1,0 +1,35 @@
+{
+  "policy": {
+    "cv_target_recall": 0.7,
+    "cv_min_precision": 0.1,
+    "ranking": "precision, recall, AP descending; no fallback"
+  },
+  "selected": {
+    "preprocessing": "expanded_features",
+    "method": "RF_weight",
+    "top_n": "all",
+    "threshold": 0.07,
+    "precision": 0.1105072463768116,
+    "recall": 0.7349397590361446,
+    "F2": 0.34502262443438914,
+    "AP": 0.16567879787845718
+  },
+  "test_recall": 0.8095238095238095,
+  "test_precision": 0.13178294573643412,
+  "tp": 17,
+  "fn": 4,
+  "fp": 112,
+  "tn": 181,
+  "test_size": 314,
+  "test_defects": 21,
+  "false_positive_rate": 0.3822525597269625,
+  "goal_above_50_reached": true,
+  "versions": {
+    "scikit-learn": "1.9.1",
+    "imbalanced-learn": "0.14.2",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "xgboost": "3.4.1"
+  },
+  "reused_cv_sha256": "0d9fb038e06b31f896a8d8438becaed8ad765f5f82e222c9a19351cb54dfab5b"
+}

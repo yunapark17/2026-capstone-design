@@ -1,0 +1,20 @@
+{
+  "selection_rule": "From previous train-only OOF: recall >= 0.50, maximize precision; no further test tuning",
+  "method": "RF_weight",
+  "top_n": 50,
+  "threshold": 0.11752664641562667,
+  "cv_recall": 0.5180722891566265,
+  "cv_precision": 0.1762295081967213,
+  "test_size": 314,
+  "test_defects": 21,
+  "test_recall": 0.42857142857142855,
+  "test_precision": 0.19148936170212766,
+  "AP": 0.17882948671045326,
+  "tp": 9,
+  "fn": 12,
+  "fp": 38,
+  "tn": 255,
+  "false_positive_rate": 0.1296928327645051,
+  "goal_50_percent_reached": false,
+  "cv_results_sha256": "202bc73a2469b6f880396955135b71f14bee0093b2ea3d6106db161b56ea730a"
+}
